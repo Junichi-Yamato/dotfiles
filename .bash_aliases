@@ -4,9 +4,9 @@ if [ -x /usr/bin/dircolors ]; then
   alias la='\ls -Fa --color=auto'
   alias ll='\ls -Fl --color=auto'
   alias lla='\ls -Fla --color=auto'
-  alias grep='grep -color=auto'
-  alias fgrep='fgrep -color=auto'
-  alias egrep='egrep -color=auto'
+  alias grep='grep --color=auto'
+  alias fgrep='fgrep --color=auto'
+  alias egrep='egrep --color=auto'
 else
   alias ls='\ls -F'
   alias la='\ls -Fa'
