@@ -1,27 +1,29 @@
 set nocompatible
 set number
-set list
 set title
 set visualbell
 set ruler
-syntax on
-set smartindent
 set history=100
 set showmatch
 set wrap
-nnoremap j gj
-nnoremap k gk
 set fileencoding=utf-8
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
 set showmode
-set expandtab
-set hlsearch
+set tabstop=4
+set shiftwidth=0
+set softtabstop=-1
+"set expandtab
+set noexpandtab
+set smartindent
+set autoindent
+set listchars=tab:>-
+set list
 set ignorecase
 set incsearch
+set hlsearch
 set smartcase
-filetype plugin indent on
 set background=dark
-set showmatch
 set cursorline
+syntax on
+filetype plugin indent on
+nnoremap j gj
+nnoremap k gk
