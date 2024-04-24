@@ -15,3 +15,5 @@ else
 fi
 
 alias rm='\rm -i'
+alias j='jobs'
+alias virt-manager='virt-manager -c qemu+ssh://j-yamato@vulture/system -c qemu+ssh://j-yamato@uller/system'
